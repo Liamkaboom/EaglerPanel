@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
-- query_port: 25577
-  motd: '&1Another Bungee server'
+- query_port: 26009
+  motd: '&1Boston Grammar School Year 7 Minecraft Server'
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -11,7 +11,7 @@ listeners:
   priorities:
   - lobby
   bind_local_address: true
-  host: 0.0.0.0:25577
+  host: 0.0.0.0:26009
   max_players: 1
   tab_size: 60
   force_default_server: false
@@ -47,6 +47,6 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    motd: '&1Boston Grammar School Year 7 Minecraft Server'
+    address: 185.36.205.4:26009
     restricted: false
